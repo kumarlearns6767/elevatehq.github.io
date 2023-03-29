@@ -3,9 +3,11 @@
 * {
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
+    padding: 0.29rem;
+    /* margin: 0; */
 }
 
-.main-container {
+.home-section {
     position: absolute;
     width: 100%;
     height: auto;
@@ -31,5 +33,18 @@
 .heading-gradient {
     background: linear-gradient(270deg, #268AFC 3.23%, #845DFF 25.86%, #D813F7 42.66%, #F8BC61 72.94%);
     -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-automate {
+    display: flex;
+    border: 2px solid red;
+    width: 544px;
+    height: 273px;
+    left: 98px;
+    top: 377px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.101961);
+    border-radius: 19px;
+    padding: 0.9rem;
 }
