@@ -8,9 +8,10 @@
 }
 
 .home-section {
+    padding: 0.5rem 3rem !important;
     position: absolute;
     width: 100%;
-    height: auto;
+    min-height: 80rem !important;
     left: 0px;
     top: 0px;
     background: linear-gradient(90deg, rgba(37, 138, 252, 0.200) 27.64%, rgba(136, 91, 255, 0.200) 43.42%, rgba(213, 23, 247, 0.200) 58.83%, rgba(246, 173, 109, 0.200) 81.81%);
@@ -36,15 +37,60 @@
     -webkit-text-fill-color: transparent;
 }
 
+.elevate-sub-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-sub-card1-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .card-automate {
     display: flex;
-    border: 2px solid red;
-    width: 544px;
-    height: 273px;
-    left: 98px;
-    top: 377px;
+    justify-items: center !important;
+    justify-content: center !important;
+    width: 500px;
+    height: auto;
     background: #FFFFFF;
     box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.101961);
     border-radius: 19px;
     padding: 0.9rem;
+    text-align: left;
+    margin: 0.5rem;
+}
+
+.slot-booking-form {
+    background: #0B1D39;
+    box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.101961);
+    border-radius: 15px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-heading h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    /* or 131% */
+    color: white;
+    text-align: center;
+}
+
+.first-name {
+    background: #FFFFFF;
+    border: 1px solid #6F7B99;
+    border-radius: 6px;
+    height: 70px;
+    padding: 1rem;
+    margin: 1.1rem 0.6rem;
+}
+
+.first-name::placeholder {
+    font-size: 16px;
+    font-weight: 600;
 }
