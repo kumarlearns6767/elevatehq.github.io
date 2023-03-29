@@ -4,24 +4,24 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
     padding: 0.29rem;
-    /* margin: 0; */
+    margin: 0;
 }
 
 .home-section {
-    padding: 0.5rem 3rem !important;
+    padding: 0.5rem 4rem !important;
     position: absolute;
     width: 100%;
     min-height: 80rem !important;
     left: 0px;
     top: 0px;
-    background: linear-gradient(90deg, rgba(37, 138, 252, 0.200) 27.64%, rgba(136, 91, 255, 0.200) 43.42%, rgba(213, 23, 247, 0.200) 58.83%, rgba(246, 173, 109, 0.200) 81.81%);
+    background: linear-gradient(90deg, rgba(37, 138, 252, 0.100) 27.64%, rgba(136, 91, 255, 0.100) 43.42%, rgba(213, 23, 247, 0.100) 58.83%, rgba(246, 173, 109, 0.100) 81.81%);
 }
 
 .elevate-logo {
-    width: 15%;
+    width: 20%;
     height: auto;
-    left: 63px;
-    top: 58px;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
 }
 
 .elevate-heading {
@@ -51,8 +51,8 @@
 .card-automate {
     display: flex;
     justify-items: center !important;
-    justify-content: center !important;
-    width: 500px;
+    justify-content: space-between !important;
+    width: 480px;
     height: auto;
     background: #FFFFFF;
     box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.101961);
@@ -60,6 +60,15 @@
     padding: 0.9rem;
     text-align: left;
     margin: 0.5rem;
+}
+
+.automate-card-text {
+    width: 52%;
+}
+
+.automate-card-image {
+    display: flex;
+    align-self: center;
 }
 
 .slot-booking-form {
@@ -93,4 +102,52 @@
 .first-name::placeholder {
     font-size: 16px;
     font-weight: 600;
+}
+
+.slot-textarea {
+    background: #FFFFFF;
+    border: 1px solid #6F7B99;
+    border-radius: 6px;
+    height: 70px;
+    padding: 1rem;
+    margin: 1.1rem 0.6rem;
+    height: 12rem;
+}
+
+.slot-textarea::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.slot-book-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slot-book-button {
+    padding: 1rem 3rem;
+    border: none;
+    background: linear-gradient(270deg, #63A7FC -6.55%, #A982F6 31.81%, #E65CFC 73.07%, #F5A79B 101.57%);
+    border-radius: 3px;
+    color: white;
+    font-size: 16.9px;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+.slot-book-button:active {
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
+
+
+.elevate-testimonial {
+    position: absolute;
 }
