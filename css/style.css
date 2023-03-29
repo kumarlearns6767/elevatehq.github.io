@@ -1,0 +1,35 @@
+@import url(https://fonts.bunny.net/css?family=manrope:200,300,400,500,600,800);
+
+* {
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.main-container {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(90deg, rgba(37, 138, 252, 0.200) 27.64%, rgba(136, 91, 255, 0.200) 43.42%, rgba(213, 23, 247, 0.200) 58.83%, rgba(246, 173, 109, 0.200) 81.81%);
+}
+
+.elevate-logo {
+    width: 15%;
+    height: auto;
+    left: 63px;
+    top: 58px;
+}
+
+.elevate-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem !important;
+}
+
+.heading-gradient {
+    background: linear-gradient(270deg, #268AFC 3.23%, #845DFF 25.86%, #D813F7 42.66%, #F8BC61 72.94%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
