@@ -6,7 +6,6 @@
     padding: 0rem;
     margin: 0;
     transition: ease all 0.9s;
-    overflow-x: hidden;
 }
 
 .main-container {
@@ -118,7 +117,7 @@
     height: 70px;
     padding: 1rem;
     margin: 1.1rem 0.6rem;
-    height: 12rem;
+    height: 10rem;
     width: 94%;
 }
 
