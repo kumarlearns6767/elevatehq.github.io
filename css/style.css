@@ -308,3 +308,275 @@
     width: 8.4rem;
     height: auto;
 }
+
+@media only screen and (max-width: 1460px) {
+    .card-automate {
+        max-width: 380px !important;
+    }
+}
+
+@media only screen and (max-width: 1395px) {
+
+    .left-semi-colon {
+        width: 5.5rem;
+    }
+
+    .testi-para {
+        font-size: 20px;
+    }
+
+    .mark-image {
+        width: 19rem;
+    }
+
+    .testi-hr {
+        width: 809px;
+        height: 0px;
+        margin-left: -553px;
+        margin-top: -7px;
+    }
+
+    .mark-container {
+        margin-top: 21rem;
+    }
+
+    .logo1 {
+        width: 0.5rem;
+    }
+
+    .zingHR-logo {
+        width: 4.9rem;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .elevate-logo {
+        width: 30%;
+    }
+
+    .elevate-heading {
+        font-size: 1.6rem !important;
+    }
+
+    .elevate-sub-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-automate {
+        max-width: 400px !important;
+    }
+
+    .automate-card-text h1 {
+        font-size: 15px;
+        ;
+    }
+
+    .automate-card-text p {
+        font-size: 11px;
+        ;
+    }
+
+    .automate-card-image img {
+        max-width: 6rem;
+        height: auto;
+    }
+
+    .slot-booking-form {
+        margin-top: 1.5rem
+    }
+
+    .elevate-testimonial {
+        min-height: 65rem;
+    }
+
+    .elevate-testimonial-content {
+        flex-direction: column;
+    }
+
+    .testi-left-items {
+        max-width: 100%;
+    }
+
+    .left-semi-colon {
+        width: 4rem;
+    }
+
+    .testi-para {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .dp-container {
+        margin-left: 12rem;
+        margin-top: -1rem;
+    }
+
+    .mark-image {
+        width: 20rem;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    .mark-container {
+        margin-top: 21rem;
+        margin-left: -1rem;
+        padding-top: 1rem;
+        padding-left: 1.2rem;
+        padding-right: 9rem;
+        padding-bottom: 1rem;
+        border-radius: 15px;
+    }
+
+    .mark-container h1 {
+        font-size: 35px;
+    }
+
+    .mark-container p {
+        font-size: 20px;
+    }
+
+    .testi-hr {
+        width: 355px;
+        height: 0px;
+        margin-left: -10rem;
+        margin-top: -13.5rem;
+        border: 1px solid #A8A8A8;
+        transform: rotate(90deg);
+        position: relative;
+    }
+
+    .firm-heading {
+        font-size: 28px;
+    }
+
+    .logo-subContainer1 {
+        flex-direction: column;
+    }
+
+    .logo1 {
+        width: 2rem;
+    }
+
+    .zingHR-logo {
+        width: 6rem;
+        margin-bottom: 1rem;
+        display: flex;
+        align-self: center;
+    }
+
+}
+
+
+
+
+/*----------------------------*/
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .home-section {
+        padding: 0rem 1.2rem !important;
+    }
+
+    .elevate-logo {
+        width: 58%;
+    }
+
+    .elevate-heading {
+        font-size: 1.15rem !important;
+    }
+
+    /* .elevate-sub-content {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .info-sub-card1-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-automate {
+        max-width: 298px !important;
+    }
+
+    .elevate-testimonial {
+        min-height: 50rem !important;
+        padding: 10rem 1.2rem !important;
+    }
+
+    .left-semi-colon {
+        width: 4rem;
+    }
+
+    .testi-para {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .dp-container {
+        margin-left: 2rem;
+        margin-top: -1rem;
+    }
+
+    .mark-image {
+        width: 15rem;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    .mark-container {
+        margin-top: 16.5rem;
+        margin-left: 0rem;
+        padding-top: 1rem;
+        padding-left: 1.2rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 15px;
+    }
+
+    .mark-container h1 {
+        font-size: 24px;
+    }
+
+    .mark-container p {
+        font-size: 15px;
+    }
+
+    .testi-hr {
+        display: none;
+    }
+
+    .firm-heading {
+        font-size: 13px;
+    }
+
+    .logo-subContainer1 {
+        flex-direction: column;
+        margin-bottom: -1.4rem;
+    }
+
+    .logo-container1 {
+        display: flex !important;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .logo1 {
+        width: 2rem;
+        margin-bottom: 2rem;;
+    }
+
+    .zingHR-logo {
+        width: 10rem;
+        margin-bottom: 1rem;
+        display: flex;
+        align-self: center;
+    }
+
+}
