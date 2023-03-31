@@ -278,6 +278,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-left: 8rem
 }
 
 .logo-subContainer1 {
@@ -290,15 +291,20 @@
 }
 
 .logo-container1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .logo1 {
-    width: 5rem;
+    width: 4rem;
     height: auto;
-    margin-right: 9.5rem;
+    margin-right: 12rem;
     display: flex;
-    align-self: center;
+    align-self: flex-end;
+}
+
+.zingHR-logo {
+    width: 8.4rem;
+    height: auto;
 }
