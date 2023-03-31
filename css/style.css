@@ -56,7 +56,7 @@
 .card-automate {
     display: flex;
     justify-items: center !important;
-    ele justify-content: space-between !important;
+    justify-content: space-between !important;
     width: 480px;
     height: auto;
     background: #FFFFFF;
