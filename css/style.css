@@ -485,30 +485,33 @@
 
 
     .elevate-logo {
-        width: 70%;
+        width: 58%;
     }
 
     .elevate-heading {
-        font-size: 1.6rem !important;
+        font-size: 1.15rem !important;
     }
 
-    .elevate-sub-content {
+    /* .elevate-sub-content {
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .info-sub-card1-container {
         display: flex;
         flex-direction: column;
     }
 
     .card-automate {
-        max-width: 400px !important;
-    }
+        max-width: 298px !important;
+      }
 
     .automate-card-text h1 {
         font-size: 15px;
-        ;
     }
 
     .automate-card-text p {
         font-size: 11px;
-        ;
     }
 
     .automate-card-image img {
